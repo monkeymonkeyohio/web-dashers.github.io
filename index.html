@@ -38,11 +38,13 @@
     <script>
         (function () {
             var GD_PROXY_HOSTS = [
-                "https://gd-proxy.webdashers.workers.dev",
+                "https://gdproxy.jamesx768.workers.dev/",
                 "https://webdashers.webdashersdevelopement.workers.dev/",
                 "fallbackgdproxy.webdashers.workers.dev",
                 "fallback2.webdashers.workers.dev"
             ];
+
+            console.log("New Version is running");
             window._gdProxyUrl = GD_PROXY_HOSTS[0];
             window._gdProxyHosts = GD_PROXY_HOSTS;
             var activeIndex = 0;
